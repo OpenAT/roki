@@ -1,0 +1,230 @@
+/*
+    ==============
+    drop_in_button
+    ==============
+*/
+
+#emailBody span.drop_in_button a,
+#emailBody span.drop_in_button a:visited {
+    border-radius: 3px;
+    -webkit-border-radius:3px;
+    background-color: #666666;
+    /*border: 1px solid #666666;*/
+    color: white;
+    font-weight: 500;
+    /* fix for outlook to do not ignore paddings */
+    display: inline-block;
+    border: 1px;
+    /* outlook test   */
+    /*padding: 0;*/
+    /*border-top-width: 0.5em;*/
+    /*border-right-width: 1em;*/
+    /*border-bottom-width: 0.5em;*/
+    /*border-left-width: 1em;*/
+    font-family: 'Rubik', 'Arial Black' !important;
+}
+
+/* BUTTON SIZE */
+#emailBody span.drop_in_button.dadi_di_button_medium,
+#emailBody span.drop_in_button.dadi_di_button_medium a {
+    font-size: 18px;
+    border-radius: 3px;
+    -webkit-border-radius:3px;
+    /* outlook test   */
+    /*padding: 0;*/
+    /*border-top-width: 0.6em;*/
+    /*border-right-width: 2em;*/
+    /*border-bottom-width: 0.6em;*/
+    /*border-left-width: 2em;*/
+    font-family: 'Rubik', 'Arial Black' !important;
+}
+
+#emailBody span.drop_in_button.dadi_di_button_large,
+#emailBody span.drop_in_button.dadi_di_button_large a {
+    font-size: 20px;
+    border-radius: 4px;
+    -webkit-border-radius:4px;
+}
+#emailBody span.drop_in_button.dadi_di_button_large a {
+    padding: 0.75em 3.5em;
+    /* outlook test   */
+    /*padding: 0;*/
+    /*border-top-width: 0.75em;*/
+    /*border-right-width: 3.5em;*/
+    /*border-bottom-width: 0.75em;*/
+    /*border-left-width: 3.5em;*/
+}
+
+#emailBody span.drop_in_button.dadi_di_button_huge,
+#emailBody span.drop_in_button.dadi_di_button_huge a {
+    font-size: 22px;
+    border-radius: 4px;
+    -webkit-border-radius:4px;
+}
+#emailBody span.drop_in_button.dadi_di_button_huge a {
+    padding: 0.8em 4.5em;
+    /* outlook test   */
+    /*padding: 0;*/
+    /*border-top-width: 0.8em;*/
+    /*border-right-width: 4.5em;*/
+    /*border-bottom-width: 0.8em;*/
+    /*border-left-width: 4.5em;*/
+}
+
+
+/* BUTTON COLOR */
+#emailBody span.drop_in_button.dadi_di_button_transparent a:visited,
+#emailBody span.drop_in_button.dadi_di_button_transparent a {
+    border-radius: 0;
+    -webkit-border-radius:0px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: inherit;
+    font-weight: 500;
+    font-family: 'Rubik', 'Arial Black' !important;
+}
+#emailBody span.drop_in_button.dadi_di_button_black a:visited,
+#emailBody span.drop_in_button.dadi_di_button_black a {
+    background-color: #000000;
+    color: white;
+    font-weight: 500;
+    font-family: 'Rubik', 'Arial Black' !important;
+}
+#emailBody span.drop_in_button.dadi_di_button_green a:visited,
+#emailBody span.drop_in_button.dadi_di_button_green a {
+    background-color: #75b836;
+    color: white;
+    font-weight: 500;
+    font-family: 'Rubik', 'Arial Black' !important;
+}
+#emailBody span.drop_in_button.dadi_di_button_grey a:visited,
+#emailBody span.drop_in_button.dadi_di_button_grey a {
+    background-color: #3d3d3c ;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: 'Rubik', 'Arial Black' !important;
+}
+
+#emailBody span.drop_in_button.dadi_di_button_yellow a:visited,
+#emailBody span.drop_in_button.dadi_di_button_yellow a {
+    background-color: #f7a600;
+    color: white;
+    font-weight: 500;
+    font-family: 'Rubik', 'Arial Black' !important;
+}
+#emailBody span.drop_in_button.dadi_di_button_red a:visited,
+#emailBody span.drop_in_button.dadi_di_button_red a {
+    background-color: #d9435d;
+    color: white;
+    font-weight: 500;
+    font-family: 'Rubik', 'Arial Black' !important;
+}
+#emailBody span.drop_in_button.dadi_di_button_blue a:visited,
+#emailBody span.drop_in_button.dadi_di_button_blue a {
+    background-color: #498ecc;
+    color: white;
+    font-weight: 500;
+    font-family: 'Rubik', 'Arial Black' !important;
+}
+#emailBody span.drop_in_button.dadi_di_button_orange a:visited,
+#emailBody span.drop_in_button.dadi_di_button_orange a {
+    background-color: #d9435d;
+    color: white;
+    font-weight: 500;
+    font-family: 'Rubik', 'Arial Black' !important;
+}
+#emailBody span.drop_in_button.dadi_di_button_pink a:visited,
+#emailBody span.drop_in_button.dadi_di_button_pink a {
+    background-color: #b32986;
+    color: white;
+    font-weight: 500;
+    font-family: 'Rubik', 'Arial Black' !important;
+}
+#emailBody span.drop_in_button.roki_di_button_red a:hover,
+#emailBody span.drop_in_button.roki_di_button_red a:visited,
+#emailBody span.drop_in_button.roki_di_button_red a {
+    background-color: #d9435d;
+    border-color: #ad2a2a;
+    /*
+    border: 1px solid #ad2a2a; !*customers whish 0,06rem but no not use it for compatibility reasons*!
+    */
+    border-bottom-width: 2.8px; /*customers whish 0,18rem but no not use it for compatibility reasons*/
+    color: white;
+    font-weight: 500;
+    font-family: 'Rubik', 'Arial Black' !important;
+}
+#emailBody span.drop_in_button.roki_di_button_grey a:hover,
+#emailBody span.drop_in_button.roki_di_button_grey a:visited,
+#emailBody span.drop_in_button.roki_di_button_grey a {
+    background-color: #3d3d3c ;
+    border-color: #292928;
+    /*
+    border: 1px solid #292928; !*customers whish 0,06rem but no not use it for compatibility reasons*!
+    */
+    border-bottom-width: 2.8px; /*customers whish 0,18rem but no not use it for compatibility reasons*/
+    color: #ffffff;
+    font-weight: 500;
+    font-family: 'Rubik', 'Arial Black';
+}
+#emailBody span.drop_in_button.roki_di_button_style_green a:hover,
+#emailBody span.drop_in_button.roki_di_button_style_green a:visited,
+#emailBody span.drop_in_button.roki_di_button_style_green a {
+    background-color: #75b836;
+    border-color: #75b836;
+    /*
+    border: 1px solid #539132; !*customers whish 0,06rem but no not use it for compatibility reasons*!
+    */
+    border-bottom-width: 2.8px; /*customers whish 0,18rem but no not use it for compatibility reasons*/
+    color: white;
+    font-weight: 500;
+    font-family: 'Rubik', 'Arial Black';
+}
+#emailBody span.drop_in_button.roki_di_button_style_green_opac a:hover,
+#emailBody span.drop_in_button.roki_di_button_style_green_opac a:visited,
+#emailBody span.drop_in_button.roki_di_button_style_green_opac a {
+    background-color: #badb9a;
+    border-color: #badb9a;
+    /*
+    border: 1px solid #539132; !*customers whish 0,06rem but no not use it for compatibility reasons*!
+    */
+    border-bottom-width: 2.8px; /*customers whish 0,18rem but no not use it for compatibility reasons*/
+    color: white;
+    font-weight: 500;
+    font-family: 'Rubik', 'Arial Black' !important;
+}
+#emailBody span.drop_in_button.roki_di_button_style_blue a:hover,
+#emailBody span.drop_in_button.roki_di_button_style_blue a:visited,
+#emailBody span.drop_in_button.roki_di_button_style_blue a {
+    background-color: #498ecc;
+    border-color: #498ecc;
+    /*
+    border: 1px solid #539132; !*customers whish 0,06rem but no not use it for compatibility reasons*!
+    */
+    border-bottom-width: 2.8px; /*customers whish 0,18rem but no not use it for compatibility reasons*/
+    color: white;
+    font-weight: 500;
+    font-family: 'Rubik', 'Arial Black' !important;
+}
+#emailBody span.drop_in_button.roki_di_button_style_blue_opac a:hover,
+#emailBody span.drop_in_button.roki_di_button_style_blue_opac a:visited,
+#emailBody span.drop_in_button.roki_di_button_style_blue_opac a {
+    background-color: #498ecc;
+    border-color: #498ecc;
+    /*
+    border: 1px solid #539132; !*customers whish 0,06rem but no not use it for compatibility reasons*!
+    */
+    border-bottom-width: 2.8px; /*customers whish 0,18rem but no not use it for compatibility reasons*/
+    color: white;
+    font-weight: 500;
+    font-family: 'Rubik', 'Arial Black' !important;
+}
+/* .roki_di_button_width_full */
+#emailBody span.drop_in_button.roki_di_button_width_full {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+#emailBody span.drop_in_button.roki_di_button_width_full a {
+    display: block;
+    width: initial;
+}

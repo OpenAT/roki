@@ -1,0 +1,143 @@
+/* ---------- */
+/* RESPONSIVE */
+/* ---------- */
+
+@media only screen and (max-width: 480px) {
+    /*#pfot_header_body {*/
+    /*    display: none !important;*/
+    /*}*/
+
+    /*#pfot_header_body, #emailBody, #pfot_footer_body,*/
+    /*table.flexibleContainer {*/
+    /*    width: 100% !important;*/
+    /*}*/
+    /* reset Mobile center view for roki on img left text right and vice versa */
+    .snippet_block_text_image_left table.flexibleContainerRight,
+    .snippet_block_text_image_right table.flexibleContainerLeft {
+        text-align: left;
+    }
+    /* reset Mobile center view for roki on two column img an text */
+    .snippet_block_text_twocol table.flexibleContainerRight .textContent,
+    .snippet_block_text_twocol table.flexibleContainerLeft .textContent {
+        text-align: left;
+    }
+    .snippet_block_text_threecol .flexibleContainer33 .textContent,
+    .snippet_block_text_threecol .flexibleContainer33 .textContent h1, h2, h3, h4 {
+        text-align: left;
+    }
+    .snippet_block_text_threecol .flexibleContainer33 .textContent img {
+        text-align: center;
+    }
+    table.flexibleContainerRight .textContent img,
+    table.flexibleContainerLeft .textContent img {
+        text-align: center;
+    }
+    #combinedheadersnippet .flexibleContainerRight img.flexibleImage {
+        width: 120px !important;
+        max-width: 120px;
+        margin: auto !important;
+        float: right !important;
+    }
+    #combinedheadersnippetNPG .flexibleContainerRight img.flexibleImage {
+        width: 120px !important;
+        max-width: 120px;
+        margin: auto !important;
+        float: right !important;
+    }
+    .snippet_block_text_twocol img.flexibleImage,
+    .snippet_block_text_threecol img.flexibleImage {
+        margin-bottom: 10px;
+    }
+    #combinedheadersnippet table.flexibleContainerRight,
+    #combinedheadersnippet table.flexibleContainerLeft,
+    #combinedheadersnippet table.flexibleContainer33 {
+        margin-bottom: none !important;
+    }
+    #combinedsnippetfooter #mediaicons table.flexibleContainerLeft img.flexibleImage {
+        width: 32px !important;
+    }
+    #mediaicons img.flexibleImage.mediaicon {
+        width: 32px !important;
+        display: initial;
+    }
+    #mediaiconsold > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > p > a > img {
+        margin: 0 2px !important;
+    }
+
+    #mediaiconsold > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > p > a,
+    #mediaiconsold > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > p > a:visited,
+    #mediaiconsold > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > p > a:active  {
+        text-decoration: none !important;
+    }
+
+
+    #combinedsnippetfooter .snippet_block_text_four_colums > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > table {
+        width: 100%;
+    }
+    #emailBody,
+    table.flexibleContainer {
+        width: 100% !important;
+    }
+
+    .h1, h1{
+        font-size: 24px;
+        padding-bottom: 12px;
+        font-weight: 700;
+    }
+
+    .h2, h2{
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+    .h3, h3{
+        font-size: 20px;
+        font-weight: 700 !important;
+    }
+
+    .h4, h4{
+        font-size: 18px;
+        font-weight: 300;
+    }
+
+    .h5, h5{
+        font-size: 16px;
+        font-weight: 300;
+    }
+
+    .h6, h6{
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    .snippet_block_text_image_left.roki_text_image_rokigrey_box .flexibleContainerRight .textContent,
+    .snippet_block_text_image_left.roki_text_image_red_box .flexibleContainerRight .textContent {
+        padding: 10px 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+    body #emailBody .snippet_block_text_image_left .flexibleContainerLeft {
+    min-height: inherit;
+}
+
+    .snippet_block_banner.dadi_sb_bg_normal .flexibleImage {
+        padding-left: 0px;
+    }
+    .snippet_block_banner.dadi_sb_bg_narrow .flexibleImage {
+        padding-left: 0px;
+    }
+    #combinedheadersnippet img {
+        width: 100%;
+    }
+    .snippet_block_text_twocol .flexibleContainerLeft .textContent > h3,
+    .snippet_block_text_twocol .flexibleContainerLeft .textContent > p {
+        padding: 0 10px;
+}
+    .snippet_block_text_twocol .flexibleContainerRight .textContent > h3,
+    .snippet_block_text_twocol .flexibleContainerRight .textContent > p {
+        padding: 0 10px;
+}
+}

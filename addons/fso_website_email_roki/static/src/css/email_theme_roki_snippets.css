@@ -1,0 +1,601 @@
+/* ------------------------------- */
+/* roki SIZING FOR 650 PIXEL WIDTH */
+/* ------------------------------- */
+
+.flexibleContainer {
+    width: 660px;
+}
+    #combinedsnippetfooter .snippet_block_text_four_colums > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > table {
+        float: left;
+        margin-left: auto;
+    }
+#combinedheadersnippet.snippet_block_text_image_left .flexibleContainerCell {
+    padding-top: 0px;
+    padding-bottom: 8px;
+}
+#footerendold p,
+#footerendold a {
+    font-size: 12.8px;
+}
+#footerend p,
+#footerend a {
+    font-size: 12.8px;
+}
+/* .snippet_block_text_image_left */
+.snippet_block_text_image_left .flexibleContainerRight,
+.snippet_block_text_image_left .flexibleContainerRight .flexibleImage {
+    width: 330px;
+}
+.snippet_block_text_image_left.roki_sb_fg_blue .flexibleContainerRight,
+.snippet_block_text_image_left.roki_sb_fg_yellow .flexibleContainerRight,
+.snippet_block_text_image_left.roki_sb_fg_grey .flexibleContainerRight,
+.snippet_block_text_image_left.roki_sb_fg_background .flexibleContainerRight {
+    width: 330px;
+}
+
+/* .snippet_block_text_image_right */
+.snippet_block_text_image_right .flexibleContainerLeft,
+.snippet_block_text_image_right .flexibleContainerLeft .flexibleImage {
+    width: 330px;
+}
+.snippet_block_text_image_right.roki_sb_fg_blue .flexibleContainerLeft,
+.snippet_block_text_image_right.roki_sb_fg_yellow .flexibleContainerLeft,
+.snippet_block_text_image_right.roki_sb_fg_grey .flexibleContainerLeft,
+.snippet_block_text_image_right.roki_sb_fg_background .flexibleContainerLeft {
+    width: 330px;
+}
+
+/* .snippet_block_text_twocol */
+.snippet_block_text_twocol .flexibleContainerRight,
+.snippet_block_text_twocol .flexibleContainerRight .flexibleImage {
+    width: 330px;
+}
+.snippet_block_text_twocol .flexibleContainerLeft,
+.snippet_block_text_twocol .flexibleContainerLeft .flexibleImage {
+    width: 330px;
+}
+.snippet_block_text_twocol img.flexibleImage {
+    margin-bottom: 10px;
+}
+/* .snippet_block_text_threecol */
+.snippet_block_text_threecol .flexibleContainer33,
+.snippet_block_text_threecol .flexibleContainer33 img.flexibleImage {
+    width: 210px;
+}
+.snippet_block_text_threecol img.flexibleImage {
+    margin-bottom: 10px;
+}
+
+
+/* .snippet_block_banner */
+.snippet_block_banner .flexibleImage,
+.snippet_block_banner.dadi_sb_bg_normal .flexibleImage {
+    width: 620px;
+    max-width: 620px;
+}
+.snippet_block_banner.dadi_sb_bg_normal .flexibleImage {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+.snippet_block_banner.dadi_sb_bg_full .flexibleImage {
+    width: 660px;
+    max-width: 660px;
+}
+#combinedsnippetspendenicons .flexibleImage {
+    width: 325px;
+    max-width: 325px;
+    margin: auto;
+}
+.snippet_block_banner.dadi_sb_bg_narrow .flexibleImage {
+    width: 580px;
+    max-width: 580px;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+
+
+
+
+/* --------------- */
+/* SNIPPET OPTIONS */
+/* --------------- */
+
+
+/* Background and Foreground Options for Snippet Blocks */
+/* ---------------------------------------------------- */
+.roki_sb_bg_background .flexibleContainerCell,
+.roki_sb_fg_background .flexibleContainerCell .nestedContainerCell {
+    background-color: #f6f6f5;
+    color: #3d3d3c;
+}
+
+.roki_sb_bg_red .flexibleContainerCell .nestedContainerCell .textContent > p {
+    color: white;
+}
+.roki_sb_bg_blue .flexibleContainerCell,
+.roki_sb_fg_blue .flexibleContainerCell .nestedContainerCell,
+.roki_sb_fg_blue .flexibleContainerCell .nestedContainerCell .textContent > p {
+    background-color: #498ECC;
+    color: white;
+}
+.roki_sb_bg_yellow .flexibleContainerCell,
+.roki_sb_fg_yellow .flexibleContainerCell .nestedContainerCell,
+.roki_sb_fg_yellow .flexibleContainerCell .nestedContainerCell .textContent > p {
+    background-color: #FFC829;
+    color: white;
+}
+.roki_sb_bg_grey .flexibleContainerCell .nestedContainerCell .textContent > p {
+    color: white;
+}
+.roki_sb_bg_grey .flexibleContainerCell,
+.roki_sb_fg_grey .flexibleContainerCell .nestedContainerCell,
+.roki_sb_fg_grey .flexibleContainerCell .nestedContainerCell .textContent > p {
+    background-color: #3d3d3c;
+    color: white;
+}
+.roki_sb_fg_background .flexibleContainerCell .nestedContainerCell,
+.roki_sb_fg_yellow .flexibleContainerCell .nestedContainerCell,
+.roki_sb_fg_blue .flexibleContainerCell .nestedContainerCell,
+.roki_sb_fg_grey .flexibleContainerCell .nestedContainerCell {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 0;
+}
+
+/* roki_snippet_block_padding */
+/* -------------------------- */
+
+.snippet_block.roki_snippet_block_padding_none .flexibleContainer .flexibleContainerCell {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.snippet_block.roki_snippet_block_padding_lower .flexibleContainer .flexibleContainerCell {
+    padding-bottom: 0;
+}
+.snippet_block.roki_snippet_block_padding_smallbox .flexibleContainer .flexibleContainerCell {
+    padding-top: 12px;
+    padding-bottom: 5px;
+}
+.snippet_block.roki_snippet_block_padding_largebox .flexibleContainer .flexibleContainerCell {
+    padding-top: 32px;
+    padding-bottom: 25px;
+}
+
+/* roki_snipped_block_img_padding_top */
+/* ---------------------------------- */
+.snippet_block_text_threecol .flexibleContainer33 .flexibleImage.roki_snippet_block_img_padding_top_none {
+    padding-top: initial;
+}
+.snippet_block_text_threecol .flexibleContainer33 .flexibleImage.roki_snippet_block_img_padding_top_10 {
+    padding-top: 10px;
+}
+.snippet_block_text_threecol .flexibleContainer33 .flexibleImage.roki_snippet_block_img_padding_top_20 {
+    padding-top: 20px;
+}
+.snippet_block_text_threecol .flexibleContainer33 .flexibleImage.roki_snippet_block_img_padding_top_30 {
+    padding-top: 30px;
+}
+.snippet_block_text_threecol .flexibleContainer33 .flexibleImage.roki_snippet_block_img_padding_top_40 {
+    padding-top: 40px;
+}
+.snippet_block_text_threecol .flexibleContainer33 .flexibleImage.roki_snippet_block_img_padding_top_50 {
+    padding-top: 50px;
+}
+.snippet_block_text_threecol .flexibleContainer33 .flexibleImage.roki_snippet_block_img_padding_top_60 {
+    padding-top: 60px;
+}
+
+/* .roki_text_image_yellow_box, roki_text_image_rokiblue_box */
+/* -------------------------------------------------- */
+/*.snippet_block_text_image_left.roki_text_image_rokiblue_box .flexibleContainerLeft,
+.snippet_block_text_image_left.roki_text_image_yellow_box .flexibleContainerLeft {
+    background-color: white;
+}*/
+
+.snippet_block_text_image_left.roki_text_image_rokiblue_box .contentTable {
+    background-color: #3d3d3c;
+}
+.snippet_block_text_image_left.roki_text_image_yellow_box .contentTable {
+    background-color: #FFC829;
+}
+
+.snippet_block_text_image_left.roki_text_image_rokiblue_box .flexibleContainerCell,
+.snippet_block_text_image_left.roki_text_image_yellow_box .flexibleContainerCell {
+    padding: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.snippet_block_text_image_left.roki_text_image_rokiblue_box .flexibleContainerCell .flexibleContainerRight .textContent,
+.snippet_block_text_image_left.roki_text_image_yellow_box .flexibleContainerCell .flexibleContainerRight .textContent {
+    padding: 10px 20px 10px 0;
+}
+.snippet_block_text_image_left.roki_text_image_rokiblue_box .flexibleContainerLeft,
+.snippet_block_text_image_left.roki_text_image_rokiblue_box .flexibleContainerRight,
+.snippet_block_text_image_left.roki_text_image_yellow_box .flexibleContainerLeft,
+.snippet_block_text_image_left.roki_text_image_yellow_box .flexibleContainerRight{
+    min-height: 30px;
+}
+.snippet_block_text_image_left.roki_text_image_rokiblue_box .textContent p,
+.snippet_block_text_image_left.roki_text_image_rokiblue_box .textContent a,
+.snippet_block_text_image_left.roki_text_image_rokiblue_box .textContent a:visited,
+.snippet_block_text_image_left.roki_text_image_rokiblue_box .textContent div,
+.snippet_block_text_image_left.roki_text_image_rokiblue_box .textContent h1,
+.snippet_block_text_image_left.roki_text_image_rokiblue_box .textContent h2,
+.snippet_block_text_image_left.roki_text_image_rokiblue_box .textContent h3,
+.snippet_block_text_image_left.roki_text_image_rokiblue_box .textContent h4,
+.snippet_block_text_image_left.roki_text_image_rokiblue_box .textContent h5,
+.snippet_block_text_image_left.roki_text_image_yellow_box .textContent p,
+.snippet_block_text_image_left.roki_text_image_yellow_box .textContent a,
+.snippet_block_text_image_left.roki_text_image_yellow_box .textContent a:visited,
+.snippet_block_text_image_left.roki_text_image_yellow_box .textContent div,
+.snippet_block_text_image_left.roki_text_image_yellow_box .textContent h1,
+.snippet_block_text_image_left.roki_text_image_yellow_box .textContent h2,
+.snippet_block_text_image_left.roki_text_image_yellow_box .textContent h3,
+.snippet_block_text_image_left.roki_text_image_yellow_box .textContent h4,
+.snippet_block_text_image_left.roki_text_image_yellow_box .textContent h5 {
+    color: white;
+}
+.snippet_block_text_image_left.roki_text_image_rokiblue_box .flexibleContainerRight,
+.snippet_block_text_image_left.roki_text_image_yellow_box .flexibleContainerRight {
+    width: 330px;
+    /*width: 450px;*/
+}
+
+
+/* .snippet_block_text_image_left Image Height */
+/* ------------------------------------------- */
+/*
+    min-height would be the best option but will not work in outlook on windows :( I HATE OUTLOOK !!!!
+*/
+/*.snippet_block_text_image_left.roki_image_height_100 .contentTable .flexibleContainerRight,
+.snippet_block_text_image_left.roki_image_height_100 .contentTable .flexibleContainerLeft {
+    min-height: 100px;
+}
+.snippet_block_text_image_left.roki_image_height_150 .contentTable .flexibleContainerRight,
+.snippet_block_text_image_left.roki_image_height_150 .contentTable .flexibleContainerLeft {
+    min-height: 150px;
+}
+.snippet_block_text_image_left.roki_image_height_200 .contentTable .flexibleContainerRight,
+.snippet_block_text_image_left.roki_image_height_200 .contentTable .flexibleContainerLeft {
+    min-height: 200px;
+}
+.snippet_block_text_image_left.roki_image_height_250 .contentTable .flexibleContainerRight,
+.snippet_block_text_image_left.roki_image_height_250 .contentTable .flexibleContainerLeft {
+    min-height: 250px;
+}
+.snippet_block_text_image_left.roki_image_height_300 .contentTable .flexibleContainerRight,
+.snippet_block_text_image_left.roki_image_height_300 .contentTable .flexibleContainerLeft {
+    min-height: 300px;
+}
+.snippet_block_text_image_left.roki_image_height_400 .contentTable .flexibleContainerRight,
+.snippet_block_text_image_left.roki_image_height_400 .contentTable .flexibleContainerLeft {
+    min-height: 400px;
+}*/
+
+/*
+    This will work with outlook on windows
+*/
+.snippet_block_text_image_left.roki_image_height_100 .contentTable .flexibleContainerRight {
+    min-height: 100px;
+}
+.snippet_block_text_image_left.roki_image_height_150 .contentTable .flexibleContainerRight {
+    min-height: 150px;
+}
+.snippet_block_text_image_left.roki_image_height_200 .contentTable .flexibleContainerRight {
+    min-height: 200px;
+}
+.snippet_block_text_image_left.roki_image_height_250 .contentTable .flexibleContainerRight {
+    min-height: 250px;
+}
+.snippet_block_text_image_left.roki_image_height_300 .contentTable .flexibleContainerRight {
+    min-height: 300px;
+}
+.snippet_block_text_image_left.roki_image_height_400 .contentTable .flexibleContainerRight {
+    min-height: 400px;
+}
+
+.snippet_block_text_image_left.roki_image_height_100 .contentTable .flexibleContainerLeft .imageContent {
+    height: 100px;
+}
+.snippet_block_text_image_left.roki_image_height_150 .contentTable .flexibleContainerLeft .imageContent {
+    height: 150px;
+}
+.snippet_block_text_image_left.roki_image_height_200 .contentTable .flexibleContainerLeft .imageContent {
+    height: 200px;
+}
+.snippet_block_text_image_left.roki_image_height_250 .contentTable .flexibleContainerLeft .imageContent {
+    height: 250px;
+}
+.snippet_block_text_image_left.roki_image_height_300 .contentTable .flexibleContainerLeft .imageContent {
+    height: 300px;
+}
+.snippet_block_text_image_left.roki_image_height_400 .contentTable .flexibleContainerLeft .imageContent {
+    height: 400px;
+}
+
+
+/* .snippet_block_text_image_left Image Vertical Align */
+/* --------------------------------------------------- */
+.snippet_block_text_image_left.roki_image_valign_middle .flexibleContainerLeft .imageContent{
+    vertical-align: middle;
+}
+.snippet_block_text_image_left.roki_image_valign_bottom .flexibleContainerLeft .imageContent{
+    vertical-align: bottom;
+}
+
+/* .roki_large_image: image size 400px */
+/* ----------------------------------- */
+
+/* .snippet_block_text_image_left */
+.snippet_block_text_image_left.roki_large_image .flexibleContainerLeft,
+.snippet_block_text_image_left.roki_large_image .flexibleContainerLeft .flexibleImage {
+    width: 310px;
+}
+.snippet_block_text_image_left.roki_large_image .flexibleContainerRight,
+.snippet_block_text_image_left.roki_large_image .flexibleContainerRight .flexibleImage {
+    width: 290px;
+}
+.snippet_block_text_image_left.roki_large_image.roki_sb_fg_red .flexibleContainerRight,
+.snippet_block_text_image_left.roki_large_image.roki_sb_fg_grey .flexibleContainerRight,
+.snippet_block_text_image_left.roki_large_image.roki_sb_fg_background .flexibleContainerRight {
+    width: 190px;
+}
+.snippet_block_text_image_left.roki_large_image.roki_text_image_rokiblue_box .flexibleContainerRight,
+.snippet_block_text_image_left.roki_large_image.roki_text_image_yellow_box .flexibleContainerRight {
+    width: 280px;
+    /*width: 300px;*/
+}
+
+/* .snippet_block_text_image_right */
+.snippet_block_text_image_right.roki_large_image .flexibleContainerLeft,
+.snippet_block_text_image_right.roki_large_image .flexibleContainerLeft .flexibleImage {
+    width: 290px;
+}
+.snippet_block_text_image_right.roki_large_image .flexibleContainerRight,
+.snippet_block_text_image_right.roki_large_image .flexibleContainerRight .flexibleImage {
+    width: 310px;
+}
+.snippet_block_text_image_right.roki_large_image.roki_sb_fg_red .flexibleContainerLeft,
+.snippet_block_text_image_right.roki_large_image.roki_sb_fg_grey .flexibleContainerLeft,
+.snippet_block_text_image_right.roki_large_image.roki_sb_fg_background .flexibleContainerLeft {
+    width: 190px;
+}
+
+/* .roki_medium_image: image size 400px */
+/* ----------------------------------- */
+
+/* .snippet_block_text_image_left */
+.snippet_block_text_image_left.roki_medium_image .flexibleContainerLeft,
+.snippet_block_text_image_left.roki_medium_image .flexibleContainerLeft .flexibleImage {
+    width: 270px;
+}
+.snippet_block_text_image_left.roki_medium_image .flexibleContainerRight,
+.snippet_block_text_image_left.roki_medium_image .flexibleContainerRight .flexibleImage {
+    width: 320px;
+}
+.snippet_block_text_image_left.roki_medium_image.roki_sb_fg_red .flexibleContainerRight,
+.snippet_block_text_image_left.roki_medium_image.roki_sb_fg_grey .flexibleContainerRight,
+.snippet_block_text_image_left.roki_medium_image.roki_sb_fg_background .flexibleContainerRight {
+    width: 270px;
+}
+.snippet_block_text_image_left.roki_medium_image.roki_text_image_rokiblue_box .flexibleContainerRight,
+.snippet_block_text_image_left.roki_medium_image.roki_text_image_yellow_box .flexibleContainerRight {
+    width: 360px;
+    /*width: 380px;*/
+}
+
+/* .snippet_block_text_image_right */
+.snippet_block_text_image_right.roki_medium_image .flexibleContainerLeft,
+.snippet_block_text_image_right.roki_medium_image .flexibleContainerLeft .flexibleImage {
+    width: 320px;
+}
+.snippet_block_text_image_right.roki_medium_image .flexibleContainerRight,
+.snippet_block_text_image_right.roki_medium_image .flexibleContainerRight .flexibleImage {
+    width: 270px;
+}
+.snippet_block_text_image_right.roki_medium_image.roki_sb_fg_red .flexibleContainerLeft,
+.snippet_block_text_image_right.roki_medium_image.roki_sb_fg_grey .flexibleContainerLeft,
+.snippet_block_text_image_right.roki_medium_image.roki_sb_fg_background .flexibleContainerLeft {
+    width: 270px;
+}
+
+/* .roki_small_image: image size 140px */
+/* ----------------------------------- */
+
+/* .snippet_block_text_image_left */
+.snippet_block_text_image_left.roki_small_image .flexibleContainerLeft,
+.snippet_block_text_image_left.roki_small_image .flexibleContainerLeft .flexibleImage {
+    width: 140px;
+}
+.snippet_block_text_image_left.roki_small_image .flexibleContainerRight,
+.snippet_block_text_image_left.roki_small_image .flexibleContainerRight .flexibleImage {
+    width: 450px;
+}
+.snippet_block_text_image_left.roki_small_image.roki_sb_fg_red .flexibleContainerRight,
+.snippet_block_text_image_left.roki_small_image.roki_sb_fg_grey .flexibleContainerRight,
+.snippet_block_text_image_left.roki_small_image.roki_sb_fg_background .flexibleContainerRight {
+    width: 400px;
+}
+.snippet_block_text_image_left.roki_small_image.roki_text_image_rokiblue_box .flexibleContainerRight,
+.snippet_block_text_image_left.roki_small_image.roki_text_image_yellow_box .flexibleContainerRight {
+    width: 490px;
+    /*width: 510px;*/
+}
+
+/* .snippet_block_text_image_right */
+.snippet_block_text_image_right.roki_small_image .flexibleContainerLeft,
+.snippet_block_text_image_right.roki_small_image .flexibleContainerLeft .flexibleImage {
+    width: 450px;
+}
+.snippet_block_text_image_right.roki_small_image .flexibleContainerRight,
+.snippet_block_text_image_right.roki_small_image .flexibleContainerRight .flexibleImage {
+    width: 140px;
+}
+.snippet_block_text_image_right.roki_small_image.roki_sb_fg_red .flexibleContainerLeft,
+.snippet_block_text_image_right.roki_small_image.roki_sb_fg_grey .flexibleContainerLeft,
+.snippet_block_text_image_right.roki_small_image.roki_sb_fg_background .flexibleContainerLeft {
+    width: 400px;
+}
+
+
+/* .roki_tiny_image: image size 90px */
+/* --------------------------------- */
+
+/* .snippet_block_text_image_left */
+.snippet_block_text_image_left.roki_tiny_image .flexibleContainerLeft,
+.snippet_block_text_image_left.roki_tiny_image .flexibleContainerLeft .flexibleImage {
+    width: 90px;
+}
+.snippet_block_text_image_left.roki_tiny_image .flexibleContainerRight,
+.snippet_block_text_image_left.roki_tiny_image .flexibleContainerRight .flexibleImage {
+    width: 500px;
+}
+.snippet_block_text_image_left.roki_tiny_image.roki_sb_fg_red .flexibleContainerRight,
+.snippet_block_text_image_left.roki_tiny_image.roki_sb_fg_grey .flexibleContainerRight,
+.snippet_block_text_image_left.roki_tiny_image.roki_sb_fg_background .flexibleContainerRight {
+    width: 450px;
+}
+.snippet_block_text_image_left.roki_tiny_image.roki_text_image_rokiblue_box .flexibleContainerRight,
+.snippet_block_text_image_left.roki_tiny_image.roki_text_image_yellow_box .flexibleContainerRight {
+    width: 540px;
+    /*width: 560px;*/
+}
+
+/* .snippet_block_text_image_right */
+.snippet_block_text_image_right.roki_tiny_image .flexibleContainerLeft,
+.snippet_block_text_image_right.roki_tiny_image .flexibleContainerLeft .flexibleImage {
+    width: 500px;
+}
+.snippet_block_text_image_right.roki_tiny_image .flexibleContainerRight,
+.snippet_block_text_image_right.roki_tiny_image .flexibleContainerRight .flexibleImage {
+    width: 90px;
+}
+.snippet_block_text_image_right.roki_tiny_image.roki_sb_fg_red .flexibleContainerLeft,
+.snippet_block_text_image_right.roki_tiny_image.roki_sb_fg_grey .flexibleContainerLeft,
+.snippet_block_text_image_right.roki_tiny_image.roki_sb_fg_background .flexibleContainerLeft {
+    width: 450px;
+}
+
+/* Roki twocol */
+.snippet_block_text_twocol .flexibleContainerLeft,
+.snippet_block_text_twocol .flexibleContainerRight {
+    width: 330px;
+}
+.snippet_block_text_twocol .flexibleContainerCell {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding: 0px 0px;
+}
+.snippet_block_text_twocol .flexibleContainerLeft .textContent > h1,
+.snippet_block_text_twocol .flexibleContainerLeft .textContent > h2,
+.snippet_block_text_twocol .flexibleContainerLeft .textContent > h3,
+.snippet_block_text_twocol .flexibleContainerLeft .textContent > h4,
+.snippet_block_text_twocol .flexibleContainerRight .textContent > h1,
+.snippet_block_text_twocol .flexibleContainerRight .textContent > h2,
+.snippet_block_text_twocol .flexibleContainerRight .textContent > h3,
+.snippet_block_text_twocol .flexibleContainerRight .textContent > h4 {
+        padding: 0 10px;
+}
+.snippet_block_text_twocol .flexibleContainerLeft .textContent > p,
+.snippet_block_text_twocol .flexibleContainerRight .textContent > p {
+    padding: 0 20px;
+}
+
+.snippet_block_text_twocol .flexibleContainerLeft .flexibleImage,
+.snippet_block_text_twocol .flexibleContainerRight .flexibleImage {
+    width: 330px;
+}
+/* This Doesnt Work after conversion so it seems ~ * is not supported by premailer
+.snippet_block_text_twocol.roki_twocol_textpadding_nopic_left .flexibleContainerLeft .textContent ~ *
+*/
+
+.snippet_block_text_twocol.roki_twocol_textpadding_nopic_left .flexibleContainerLeft .textContent > h1,
+.snippet_block_text_twocol.roki_twocol_textpadding_nopic_left .flexibleContainerLeft .textContent > h2,
+.snippet_block_text_twocol.roki_twocol_textpadding_nopic_left .flexibleContainerLeft .textContent > h3,
+.snippet_block_text_twocol.roki_twocol_textpadding_nopic_left .flexibleContainerLeft .textContent > h4,
+.snippet_block_text_twocol.roki_twocol_textpadding_nopic_left .flexibleContainerLeft .textContent > p {
+        padding: 0 20px;
+}
+.snippet_block_text_twocol.roki_twocol_textpadding_nopic_right .flexibleContainerRight .textContent > h1,
+.snippet_block_text_twocol.roki_twocol_textpadding_nopic_right .flexibleContainerRight .textContent > h2,
+.snippet_block_text_twocol.roki_twocol_textpadding_nopic_right .flexibleContainerRight .textContent > h3,
+.snippet_block_text_twocol.roki_twocol_textpadding_nopic_right .flexibleContainerRight .textContent > h4,
+.snippet_block_text_twocol.roki_twocol_textpadding_nopic_right .flexibleContainerRight .textContent > p {
+    padding: 0 20px;
+}
+.snippet_block_text_twocol .flexibleContainerLeft .textContent,
+.snippet_block_text_twocol .flexibleContainerRight .textContent {
+    padding-bottom: 10px;
+}
+
+.snippet_block_text_twocol.roki_twocol_bg_left_blue .flexibleContainerLeft,
+.snippet_block_text_twocol.roki_twocol_bg_right_blue .flexibleContainerRight {
+    background-color: #498ECC;
+}
+.snippet_block_text_twocol.roki_twocol_bg_left_blue .flexibleContainerLeft .textContent > h3,
+.snippet_block_text_twocol.roki_twocol_bg_left_blue .flexibleContainerLeft .textContent > h2,
+.snippet_block_text_twocol.roki_twocol_bg_left_blue .flexibleContainerLeft .textContent > h1,
+.snippet_block_text_twocol.roki_twocol_bg_left_blue .flexibleContainerLeft .textContent > p,
+.snippet_block_text_twocol.roki_twocol_bg_right_blue .flexibleContainerRight .textContent > h3,
+.snippet_block_text_twocol.roki_twocol_bg_right_blue .flexibleContainerRight .textContent > p {
+    color: white;
+}
+.snippet_block_text_twocol.roki_twocol_bg_left_yellow .flexibleContainerLeft,
+.snippet_block_text_twocol.roki_twocol_bg_right_yellow .flexibleContainerRight {
+    background-color: #FFC829;
+}
+.snippet_block_text_twocol.roki_twocol_bg_left_yellow .flexibleContainerLeft .textContent > h3,
+.snippet_block_text_twocol.roki_twocol_bg_left_yellow .flexibleContainerLeft .textContent > h2,
+.snippet_block_text_twocol.roki_twocol_bg_left_yellow .flexibleContainerLeft .textContent > h1,
+.snippet_block_text_twocol.roki_twocol_bg_left_yellow .flexibleContainerLeft .textContent > p,
+.snippet_block_text_twocol.roki_twocol_bg_right_yellow .flexibleContainerRight .textContent > h3,
+.snippet_block_text_twocol.roki_twocol_bg_right_yellow .flexibleContainerRight .textContent > h2,
+.snippet_block_text_twocol.roki_twocol_bg_right_yellow .flexibleContainerRight .textContent > h1,
+.snippet_block_text_twocol.roki_twocol_bg_right_yellow .flexibleContainerRight .textContent > p {
+    color: black;
+}
+
+/* special footer */
+#combinedsnippetfooter .snippet_block_text_twocol .flexibleContainerLeft .textContent > h3,
+#combinedsnippetfooter .snippet_block_text_twocol .flexibleContainerLeft .textContent > h2,
+#combinedsnippetfooter .snippet_block_text_twocol .flexibleContainerLeft .textContent > h1,
+#combinedsnippetfooter .snippet_block_text_twocol .flexibleContainerRight .textContent > h3,
+#combinedsnippetfooter .snippet_block_text_twocol .flexibleContainerRight .textContent > h2,
+#combinedsnippetfooter .snippet_block_text_twocol .flexibleContainerRight .textContent > h1 {
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+#combinedsnippetfooter .snippet_block_text_twocol .flexibleContainerLeft .textContent > p,
+#combinedsnippetfooter .snippet_block_text_twocol .flexibleContainerRight .textContent > p {
+    color: white;
+    font-size: 11px;
+    line-height: initial;
+}
+#combinedsnippetfooter .snippet_block_text_twocol .flexibleContainerLeft .textContent,
+#combinedsnippetfooter .snippet_block_text_twocol .flexibleContainerRight .textContent {
+    padding-left: 150px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+.snippet_block_text_intro .flexibleContainerCell {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+@media only screen and (max-width: 480px) {
+    #combinedsnippetfooter .snippet_block_text_twocol .flexibleContainerLeft .textContent,
+    #combinedsnippetfooter .snippet_block_text_twocol .flexibleContainerRight .textContent {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 5px;
+    }
+    #combinedsnippetfooter .snippet_block_text_twocol .flexibleContainerRight .textContent .facebookicon {
+        float: left;
+    }
+}
