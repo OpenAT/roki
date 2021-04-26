@@ -146,10 +146,8 @@
                                                                                 <tbody>
                                                                                     <tr>
                                                                                         <td class="textContent ckediting_enabled">
-                                                                                            <a href="#">
                                                                                                 <img class="flexibleImage snippet_block_banner_image"
                                                                                                      src="/fso_website_email_roki/static/src/img/spacer-top.png"/>
-                                                                                            </a>
                                                                                         </td>
                                                                                     </tr>
                                                                                 </tbody>
@@ -198,10 +196,8 @@
                                                                                 <tbody>
                                                                                     <tr>
                                                                                         <td class="textContent ckediting_enabled">
-                                                                                            <a href="#">
                                                                                                 <img class="flexibleImage snippet_block_banner_image"
                                                                                                      src="/fso_website_email_roki/static/src/img/spacer-bottom.png"/>
-                                                                                            </a>
                                                                                         </td>
                                                                                     </tr>
                                                                                 </tbody>
@@ -302,19 +298,17 @@
                                                                                                             class="textContent ckediting_enabled"
                                                                                                             valign="top">
                                                                                                             <span class="facebookicon" style="text-align: center;">
-                                                                                                                <img style="width: 49px;" data-cke-saved-src="/fso_website_email_roki/static/src/icons/facebook.png"
-                                                                                                                     src="/fso_website_email_roki/static/src/icons/facebook.png"/>
-                                                                                                                <br></br>
+                                                                                                                <a href="https://www.facebook.com/RonaldMcDonaldKinderhilfe" target="_blank">
+                                                                                                                    <img width="32" style="width: 32px;" data-cke-saved-src="/fso_website_email_roki/static/src/icons/facebook.png"
+                                                                                                                         src="/fso_website_email_roki/static/src/icons/facebook.png"/>
+                                                                                                                </a>
                                                                                                             </span>
-                                                                                                            <p style="text-align: center; font-size: 13px; font-style: bold; ">
-                                                                                                                Folgen
-                                                                                                                Sie uns
-                                                                                                                auch<br></br>
-                                                                                                                <span style="font-size: 13px; font-style: bold; background-color: transparent;">
-                                                                                                                    auf
-                                                                                                                    Facebook!
-                                                                                                                </span>
-                                                                                                            </p>
+                                                                                                            <span class="instagramicon" style="text-align: center;">
+                                                                                                                <a href="https://www.instagram.com/Ronaldmcdonaldkinderhilfe" target="_blank">
+                                                                                                                    <img width="32" style="width: 32px;" data-cke-saved-src="/fso_website_email_roki/static/src/icons/Instagram_logo_icon.png"
+                                                                                                                         src="/fso_website_email_roki/static/src/icons/Instagram_logo_icon.png"/>
+                                                                                                                </a>
+                                                                                                            </span>
                                                                                                         </td>
                                                                                                     </tr>
                                                                                                 </tbody>
@@ -359,14 +353,10 @@
                                                                                         <td class="textContent ckediting_enabled" style="text-align: center;">
                                                                                             <p class="roki_tiny">
                                                                                                 <span style="font-size: 9pt; background-color: transparent; text-align: center;">
-                                                                                                    Sie sind unter
-                                                                                                    folgender Adresse
-                                                                                                    eingetragen
-                                                                                                    xyz@xyuabc.com |
-                                                                                                    Impressum |
-                                                                                                    Newsletter
-                                                                                                    abbestellen | Profil
-                                                                                                    bearbeiten
+                                                                                                    <a href="https://www.kinderhilfe.at/impressum" target="_blank">Impressum</a>
+                                                                                                    &amp;nbsp;|&amp;nbsp;
+                                                                                                    <a href="https://www.kinderhilfe.at/newsletterabmeldung">Newsletter
+                                                                                                    abbestellen</a>
                                                                                                 </span>
                                                                                             </p>
                                                                                         </td>
