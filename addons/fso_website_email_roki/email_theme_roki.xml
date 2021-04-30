@@ -80,99 +80,100 @@
 <!--                <link data-premailer="ignore" href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700;900&amp;display=swap" rel="stylesheet" type="text/css" t-ignore="true"/>
                 <link data-premailer="ignore" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&amp;display=swap" rel="stylesheet" type="text/css" t-ignore="true"/>
                 <link data-premailer="ignore" href='/fso_website_email_roki/static/src/css/custom_fonts_styles.css' rel='stylesheet' type='text/css' t-ignore="true"/>-->
+                <meta name="format-detection" content="telephone=no"></meta>
+
                  <style type="text/css" data-premailer="ignore">
                      <![CDATA[
-                     @import url('/fso_website_email_roki/static/src/css/fonts/Raleway-Regular.ttf');
-                     @import url('/fso_website_email_roki/static/src/css/fonts/Raleway-Bold.ttf');
-                     @import url('/fso_website_email_roki/static/src/css/fonts/Raleway-SemiBold.ttf');
-                     /*
-                     Railway-regular - latin
-                     */
-                    @font-face {
-                      font-family: 'Railway';
-                      font-style: normal;
-                      font-weight: 400;
-                      src: local('Railway'), local('Railway-Regular'),
-                    /*
-                           url('/fso_website_email_roki/static/src/fonts/rubik-v9-latin-regular.eot?#iefix') format('embedded-opentype'), !* IE6-IE8 *!
-                           url('/fso_website_email_roki/static/src/fonts/rubik-v9-latin-regular.woff2') format('woff2'), !* Super Modern Browsers *!
-                           url('/fso_website_email_roki/static/src/fonts/rubik-v9-latin-regular.woff') format('woff'), !* Modern Browsers *!
-                           url('/fso_website_email_roki/static/src/fonts/rubik-v9-latin-regular.svg#Rubik') format('svg'); !* Legacy iOS *!
-                    */
-                           url('/fso_website_email_roki/static/src/css/fonts/Raleway-Regular.ttf') format('truetype'); /* Safari, Android, iOS */
-                      mso-font-alt: 'Arial';
-                    }
-                     /*
-                     Railway-Bold - latin
-                     */
-                    @font-face {
-                      font-family: 'Railway-Bold';
-                      font-style: normal;
-                      font-weight: 700;
-                      src: local('RailwayBold'), local('Railway-Bold'),
-                    /*
-                           url('/fso_website_email_roki/static/src/fonts/rubik-v9-latin-regular.eot?#iefix') format('embedded-opentype'), !* IE6-IE8 *!
-                           url('/fso_website_email_roki/static/src/fonts/rubik-v9-latin-regular.woff2') format('woff2'), !* Super Modern Browsers *!
-                           url('/fso_website_email_roki/static/src/fonts/rubik-v9-latin-regular.woff') format('woff'), !* Modern Browsers *!
-                           url('/fso_website_email_roki/static/src/fonts/rubik-v9-latin-regular.svg#Rubik') format('svg'); !* Legacy iOS *!
-                    */
-                           url('/fso_website_email_roki/static/src/css/fonts/Raleway-Bold.ttf') format('truetype'); /* Safari, Android, iOS */
-                      mso-font-alt: 'Arial';
-                    }
-                     /*
-                     Railway-SemiBold - latin
-                     */
-                    @font-face {
-                      font-family: 'Railway-SemiBold';
-                      font-style: normal;
-                      font-weight: 600;
-                      src: local('RailwaySemiBold'), local('Railway-SemiBold'),
-                    /*
-                           url('/fso_website_email_roki/static/src/fonts/rubik-v9-latin-regular.eot?#iefix') format('embedded-opentype'), !* IE6-IE8 *!
-                           url('/fso_website_email_roki/static/src/fonts/rubik-v9-latin-regular.woff2') format('woff2'), !* Super Modern Browsers *!
-                           url('/fso_website_email_roki/static/src/fonts/rubik-v9-latin-regular.woff') format('woff'), !* Modern Browsers *!
-                           url('/fso_website_email_roki/static/src/fonts/rubik-v9-latin-regular.svg#Rubik') format('svg'); !* Legacy iOS *!
-                    */
-                           url('/fso_website_email_roki/static/src/css/fonts/Raleway-SemiBold.ttf') format('truetype'); /* Safari, Android, iOS */
-                      mso-font-alt: 'Arial';
-                    }
+                         @import url('/fso_website_email_roki/static/src/css/fonts/Raleway-Regular.ttf');
+                         @import url('/fso_website_email_roki/static/src/css/fonts/Raleway-Bold.ttf');
+                         @import url('/fso_website_email_roki/static/src/css/fonts/Raleway-SemiBold.ttf');
+                         /*
+                         Railway-regular - latin
+                         */
+                        @font-face {
+                          font-family: 'Railway';
+                          font-style: normal;
+                          font-weight: 400;
+                          src: local('Railway'), local('Railway-Regular'),
+                        /*
+                               url('/fso_website_email_roki/static/src/fonts/rubik-v9-latin-regular.eot?#iefix') format('embedded-opentype'), !* IE6-IE8 *!
+                               url('/fso_website_email_roki/static/src/fonts/rubik-v9-latin-regular.woff2') format('woff2'), !* Super Modern Browsers *!
+                               url('/fso_website_email_roki/static/src/fonts/rubik-v9-latin-regular.woff') format('woff'), !* Modern Browsers *!
+                               url('/fso_website_email_roki/static/src/fonts/rubik-v9-latin-regular.svg#Rubik') format('svg'); !* Legacy iOS *!
+                        */
+                               url('/fso_website_email_roki/static/src/css/fonts/Raleway-Regular.ttf') format('truetype'); /* Safari, Android, iOS */
+                          mso-font-alt: 'Arial';
+                        }
+                         /*
+                         Railway-Bold - latin
+                         */
+                        @font-face {
+                          font-family: 'Railway-Bold';
+                          font-style: normal;
+                          font-weight: 700;
+                          src: local('RailwayBold'), local('Railway-Bold'),
+                        /*
+                               url('/fso_website_email_roki/static/src/fonts/rubik-v9-latin-regular.eot?#iefix') format('embedded-opentype'), !* IE6-IE8 *!
+                               url('/fso_website_email_roki/static/src/fonts/rubik-v9-latin-regular.woff2') format('woff2'), !* Super Modern Browsers *!
+                               url('/fso_website_email_roki/static/src/fonts/rubik-v9-latin-regular.woff') format('woff'), !* Modern Browsers *!
+                               url('/fso_website_email_roki/static/src/fonts/rubik-v9-latin-regular.svg#Rubik') format('svg'); !* Legacy iOS *!
+                        */
+                               url('/fso_website_email_roki/static/src/css/fonts/Raleway-Bold.ttf') format('truetype'); /* Safari, Android, iOS */
+                          mso-font-alt: 'Arial';
+                        }
+                         /*
+                         Railway-SemiBold - latin
+                         */
+                        @font-face {
+                          font-family: 'Railway-SemiBold';
+                          font-style: normal;
+                          font-weight: 600;
+                          src: local('RailwaySemiBold'), local('Railway-SemiBold'),
+                        /*
+                               url('/fso_website_email_roki/static/src/fonts/rubik-v9-latin-regular.eot?#iefix') format('embedded-opentype'), !* IE6-IE8 *!
+                               url('/fso_website_email_roki/static/src/fonts/rubik-v9-latin-regular.woff2') format('woff2'), !* Super Modern Browsers *!
+                               url('/fso_website_email_roki/static/src/fonts/rubik-v9-latin-regular.woff') format('woff'), !* Modern Browsers *!
+                               url('/fso_website_email_roki/static/src/fonts/rubik-v9-latin-regular.svg#Rubik') format('svg'); !* Legacy iOS *!
+                        */
+                               url('/fso_website_email_roki/static/src/css/fonts/Raleway-SemiBold.ttf') format('truetype'); /* Safari, Android, iOS */
+                          mso-font-alt: 'Arial';
+                        }
                     ]]>
                </style>
                 <t t-set="olconditionals">
                 <![CDATA[
-                <!--[if mso 14]>
-                    <style type="text/css">
-                        h1, h2, h3, h4, h5, h6,
-                        .headerCell, .footerCell,
-                        .textContent, .textContentLast,
-                        .buttonContent,
-                        .emailCalendarDay, .emailCalendarMonth {
-                            font-family: Arial, sans-serif !important;
-                            mso-line-height-rule: exactly;
-                        }
-                    </style>
-                <![endif]-->
-                <!--[if mso 16]>
-                    <style type="text/css">
-                        h1, h2, h3, h4, h5, h6,
-                        .headerCell, .footerCell,
-                        .textContent, .textContentLast,
-                        .buttonContent,
-                        .emailCalendarDay, .emailCalendarMonth {
-                            font-family: Arial, sans-serif !important;
-                            mso-line-height-rule: exactly;
-                        }
-                    </style>
-                <![endif]-->
+                    <!--[if mso 14]>
+                        <style type="text/css">
+                            h1, h2, h3, h4, h5, h6,
+                            .headerCell, .footerCell,
+                            .textContent, .textContentLast,
+                            .buttonContent,
+                            .emailCalendarDay, .emailCalendarMonth {
+                                font-family: Arial, sans-serif !important;
+                                mso-line-height-rule: exactly;
+                            }
+                        </style>
+                    <![endif]-->
 
-                <!--[if mso]>
-                    <style type="text/css">
+                    <!--[if mso 16]>
+                        <style type="text/css">
+                            h1, h2, h3, h4, h5, h6,
+                            .headerCell, .footerCell,
+                            .textContent, .textContentLast,
+                            .buttonContent,
+                            .emailCalendarDay, .emailCalendarMonth {
+                                font-family: Arial, sans-serif !important;
+                                mso-line-height-rule: exactly;
+                            }
+                        </style>
+                    <![endif]-->
+
+                    <!--[if mso]>
+                        <style type="text/css">
                             /* Stop Outlook resizing small text. */
                             * {
                                  -ms-text-size-adjust: 100%;
                             }
-                    </style>
-                       <style type="text/css">
                            /* Remove space around the email design. */
                            html,
                            body {
@@ -181,54 +182,37 @@
                                height: 100% !important;
                                width: 100% !important;
                            }
-                       </style>
-                        <style type="text/css">
-                                /* Stop Outlook from adding extra spacing to tables. */
-                                table,
-                                td {
-                                    mso-table-lspace: 0pt !important;
-                                    mso-table-rspace: 0pt !important;
-                                    border-collapse: collapse;
-                                    border-spacing:0;
-
-                                }
-                        </style>
-                    <style type="text/css">
+                            /* Stop Outlook from adding extra spacing to tables. */
+                            table,
+                            td {
+                                mso-table-lspace:0pt;
+                                mso-table-rspace:0pt;
+                                border-collapse:collapse;
+                                border-spacing:0;
+                            }
                             /* Use a better rendering method when resizing images in Outlook IE. */
                             img {
                                  -ms-interpolation-mode:bicubic;
                             }
-                    </style>
-                    <style type="text/css">
                             /* Prevent Windows 10 Mail from underlining links. Styles for underlined links should be inline. */
                             a {
                             text-decoration: none;
                             }
-                    </style>
-                    <style type="text/css">
-                        * {
-                            font-family: Arial, sans-serif !important;
-                        }
-                    </style>
-                    <style type="text/css">
-                      body,
-                      p,
-                      a,
-                      #emailBody ul li,
-                      #emailBody ol li {
-                            font-family: Arial, sans-serif !important;
-                        }
-                    </style>
-                <![endif]-->
-                <!--[if mso]>
-                    <style>
-                    * {-webkit-text-size-adjust: none}
-                    </style>
-                <![endif]-->
-            ]]>
+                            * {
+                                font-family: Arial, sans-serif !important;
+                            }
+                            body,
+                            p,
+                            a,
+                            #emailBody ul li,
+                            #emailBody ol li {
+                               font-family: Arial, sans-serif !important;
+                            }
+                        </style>
+                    <![endif]-->
+                 ]]>
                 </t>
                 <t t-raw="olconditionals">
-
                 </t>
 
 <!--            <link data-premailer="ignore" href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700;900&amp;display=swap" rel="stylesheet" type="text/css" t-ignore="true"/>
