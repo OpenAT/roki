@@ -191,6 +191,9 @@
                                 border-spacing:0;
                             }
                             /* Use a better rendering method when resizing images in Outlook IE. */
+                            a img {
+                                border:0 none;
+                            }
                             img {
                                  -ms-interpolation-mode:bicubic;
                             }

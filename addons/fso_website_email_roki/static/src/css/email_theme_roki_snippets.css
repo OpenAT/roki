@@ -48,11 +48,11 @@
 /* .snippet_block_text_twocol */
 .snippet_block_text_twocol .flexibleContainerRight,
 .snippet_block_text_twocol .flexibleContainerRight .flexibleImage {
-    width: 330px;
+    width: 310px;
 }
 .snippet_block_text_twocol .flexibleContainerLeft,
 .snippet_block_text_twocol .flexibleContainerLeft .flexibleImage {
-    width: 330px;
+    width: 310px;
 }
 .snippet_block_text_twocol img.flexibleImage {
     margin-bottom: 10px;
@@ -485,7 +485,7 @@
 /* Roki twocol */
 .snippet_block_text_twocol .flexibleContainerLeft,
 .snippet_block_text_twocol .flexibleContainerRight {
-    width: 330px;
+    width: 310px;
 }
 .snippet_block_text_twocol .flexibleContainerCell {
     padding-top: 0px;
