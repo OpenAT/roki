@@ -379,6 +379,128 @@
                     </div>
                 </div>
 
+
+                <!-- Roki special 100% twocol outlook special -->
+            <div>
+                <!-- Icon and name -->
+                <div class="oe_snippet_thumbnail">
+                    <img class="oe_snippet_thumbnail_img"
+                         src="/fso_website_email_roki/static/src/icons/roki_twocol_snippet_icon.png"/>
+                    <span class="oe_snippet_thumbnail_title">Roki twocol special</span>
+                </div>
+                <div id="roki_twocol_olspecial" class="oe_snippet_body ckediting_disabled roki_bin">
+                    <div class="ckediting_disabled snippet_block snippet_block_text_twocol snippet_block_text_twocol_roki_olspecial roki_twocol_bg_left_blue roki_twocol_bg_right_yellow">
+                        <table cellpadding="0" cellspacing="0" class="centeringTable">
+                            <tbody>
+                                <tr>
+                                    <td align="center" valign="top">
+                                        <table border="0" cellpadding="0" cellspacing="0" class="flexibleContainer">
+                                            <tbody>
+                                                <tr>
+                                                    <td align="center" class="flexibleContainerCell" valign="top">
+                                                        <table border="0" cellpadding="0" cellspacing="0"
+                                                               class="nestedContainer">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td align="center" class="nestedContainerCell"
+                                                                        valign="top">
+                                                                        <table border="0" cellpadding="0"
+                                                                               cellspacing="0" class="contentTable">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td class="textContent">
+                                                                                        <table align="left" border="0"
+                                                                                               cellpadding="0"
+                                                                                               cellspacing="0"
+                                                                                               style="max-width: 100%; width: 324px;"
+                                                                                               width="324"
+                                                                                               class="flexibleContainerLeft">
+                                                                                            <tbody>
+                                                                                                <tr>
+                                                                                                    <td align="center"
+                                                                                                        class="textContent ckediting_enabled"
+                                                                                                        valign="top"
+                                                                                                        style="max-width: 100%; width: 324px;"
+                                                                                                        width="324">
+                                                                                                        <img class="flexibleImage"
+                                                                                                             src="/fso_website_email/static/src/images/klimtbruecke.jpg"/>
+                                                                                                        <h3>Links</h3>
+
+                                                                                                        <p>Vestibulum
+                                                                                                            vitae metus
+                                                                                                            sed purus
+                                                                                                            elementum
+                                                                                                            malesuada.
+                                                                                                            Aliquam
+                                                                                                            feugiat
+                                                                                                            metus ut
+                                                                                                            orci. Etiam
+                                                                                                            scelerisque
+                                                                                                            lacus eu
+                                                                                                            tellus. ...
+                                                                                                        </p>
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                            </tbody>
+                                                                                        </table>
+
+                                                                                        <table align="right" border="0"
+                                                                                               cellpadding="0"
+                                                                                               cellspacing="0"
+                                                                                               style="max-width: 100%; width: 324px;"
+                                                                                               width="324"
+                                                                                               class="flexibleContainerRight">
+                                                                                            <tbody>
+                                                                                                <tr>
+                                                                                                    <td align="center"
+                                                                                                        class="textContent ckediting_enabled"
+                                                                                                        valign="top"
+                                                                                                        style="max-width: 100%; width: 324px;"
+                                                                                                        width="324">
+
+                                                                                                        <img class="flexibleImage"
+                                                                                                             src="/fso_website_email/static/src/images/klimtbruecke.jpg"/>
+                                                                                                        <h3>Rechts</h3>
+
+                                                                                                        <p>Vestibulum
+                                                                                                            vitae metus
+                                                                                                            sed purus
+                                                                                                            elementum
+                                                                                                            malesuada.
+                                                                                                            Aliquam
+                                                                                                            feugiat
+                                                                                                            metus ut
+                                                                                                            orci. Etiam
+                                                                                                            scelerisque
+                                                                                                            lacus eu
+                                                                                                            tellus. ...
+                                                                                                        </p>
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                            </tbody>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+
+
             </div>
         </xpath>
     </template>

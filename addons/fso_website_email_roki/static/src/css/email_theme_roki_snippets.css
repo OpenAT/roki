@@ -48,12 +48,26 @@
 /* .snippet_block_text_twocol */
 .snippet_block_text_twocol .flexibleContainerRight,
 .snippet_block_text_twocol .flexibleContainerRight .flexibleImage {
-    width: 310px;
+    width: 324px;
 }
 .snippet_block_text_twocol .flexibleContainerLeft,
 .snippet_block_text_twocol .flexibleContainerLeft .flexibleImage {
-    width: 310px;
+    width: 324px;
 }
+#roki_twocol_olspecial .snippet_block_text_twocol.snippet_block_text_twocol_roki_olspecial .flexibleContainerRight,
+#roki_twocol_olspecial .snippet_block_text_twocol.snippet_block_text_twocol_roki_olspecial .flexibleContainerRight .flexibleImage {
+    width: 324px;
+}
+#roki_twocol_olspecial .snippet_block_text_twocol.snippet_block_text_twocol_roki_olspecial .flexibleContainerLeft,
+#roki_twocol_olspecial .snippet_block_text_twocol.snippet_block_text_twocol_roki_olspecial .flexibleContainerLeft .flexibleImage {
+    width: 324px;
+}
+/*#roki_twocol_olspecial > div > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > table.flexibleContainerLeft,
+#roki_twocol_olspecial > div > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > table.flexibleContainerRight,
+#roki_twocol_olspecial > div > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > table.flexibleContainerRight > tbody > tr > td,
+#roki_twocol_olspecial > div > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > table > tbody > tr > td > table.flexibleContainerLeft > tbody > tr > td {
+    -premailer-width: 324;
+}*/
 .snippet_block_text_twocol img.flexibleImage {
     margin-bottom: 10px;
 }
@@ -482,11 +496,11 @@
     width: 450px;
 }
 
-/* Roki twocol */
-.snippet_block_text_twocol .flexibleContainerLeft,
-.snippet_block_text_twocol .flexibleContainerRight {
-    width: 310px;
-}
+/*!* Roki twocol *!*/
+/*.snippet_block_text_twocol .flexibleContainerLeft,*/
+/*.snippet_block_text_twocol .flexibleContainerRight {*/
+    /*width: 310px;*/
+/*}*/
 .snippet_block_text_twocol .flexibleContainerCell {
     padding-top: 0px;
     padding-bottom: 0px;
@@ -507,10 +521,10 @@
     padding: 0 20px;
 }
 
-.snippet_block_text_twocol .flexibleContainerLeft .flexibleImage,
-.snippet_block_text_twocol .flexibleContainerRight .flexibleImage {
-    width: 330px;
-}
+/*.snippet_block_text_twocol .flexibleContainerLeft .flexibleImage,*/
+/*.snippet_block_text_twocol .flexibleContainerRight .flexibleImage {*/
+    /*width: 330px;*/
+/*}*/
 /* This Doesnt Work after conversion so it seems ~ * is not supported by premailer
 .snippet_block_text_twocol.roki_twocol_textpadding_nopic_left .flexibleContainerLeft .textContent ~ *
 */
