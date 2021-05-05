@@ -48,11 +48,11 @@
 /* .snippet_block_text_twocol */
 .snippet_block_text_twocol .flexibleContainerRight,
 .snippet_block_text_twocol .flexibleContainerRight .flexibleImage {
-    width: 324px;
+    width: 330px;
 }
 .snippet_block_text_twocol .flexibleContainerLeft,
 .snippet_block_text_twocol .flexibleContainerLeft .flexibleImage {
-    width: 324px;
+    width: 330px;
 }
 #roki_twocol_olspecial .snippet_block_text_twocol.snippet_block_text_twocol_roki_olspecial .flexibleContainerRight,
 #roki_twocol_olspecial .snippet_block_text_twocol.snippet_block_text_twocol_roki_olspecial .flexibleContainerRight .flexibleImage {
