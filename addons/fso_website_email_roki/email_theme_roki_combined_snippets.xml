@@ -94,7 +94,7 @@
                                                                                     <td class="textContent ckediting_enabled">
                                                                                         <h1 style="text-align: center;">
                                                                                             <span style="color: rgb(61, 61, 60); background-color: transparent; text-align: center;">
-                                                                                                <img src="/fso_website_email_roki/static/src/img/17_07_RMCC_Logo_Neu_quer_weiss_Version_1.png"/>
+                                                                                                <img src="/fso_website_email_roki/static/src/img/17_07_RMCC_Logo_Neu_quer_weiss_Version_1.png" alt=""/>
                                                                                             </span>
                                                                                         </h1>
                                                                                     </td>
@@ -122,7 +122,7 @@
                     <!-- Icon and name -->
                     <div class="oe_snippet_thumbnail">
                         <img class="oe_snippet_thumbnail_img"
-                             src="/fso_website_email_roki/static/src/icons/roki_spacertop_icon.png"/>
+                             src="/fso_website_email_roki/static/src/icons/roki_spacertop_icon.png" alt=""/>
                         <span class="oe_snippet_thumbnail_title">spacer Top</span>
                     </div>
                     <div id="roki_spacertop" class="oe_snippet_body ckediting_disabled roki_bin">
@@ -147,7 +147,7 @@
                                                                                     <tr>
                                                                                         <td class="textContent ckediting_enabled">
                                                                                                 <img class="flexibleImage snippet_block_banner_image"
-                                                                                                     src="/fso_website_email_roki/static/src/img/spacer-top.png"/>
+                                                                                                     src="/fso_website_email_roki/static/src/img/spacer-top.png" alt=""/>
                                                                                         </td>
                                                                                     </tr>
                                                                                 </tbody>
@@ -197,7 +197,7 @@
                                                                                     <tr>
                                                                                         <td class="textContent ckediting_enabled">
                                                                                                 <img class="flexibleImage snippet_block_banner_image"
-                                                                                                     src="/fso_website_email_roki/static/src/img/spacer-bottom.png"/>
+                                                                                                     src="/fso_website_email_roki/static/src/img/spacer-bottom.png" alt=""/>
                                                                                         </td>
                                                                                     </tr>
                                                                                 </tbody>
@@ -300,13 +300,13 @@
                                                                                                             <span class="facebookicon" style="text-align: center;">
                                                                                                                 <a href="https://www.facebook.com/RonaldMcDonaldKinderhilfe" target="_blank">
                                                                                                                     <img width="32" style="width: 32px;" data-cke-saved-src="/fso_website_email_roki/static/src/icons/facebook.png"
-                                                                                                                         src="/fso_website_email_roki/static/src/icons/facebook.png"/>
+                                                                                                                         src="/fso_website_email_roki/static/src/icons/facebook.png" alt=""/>
                                                                                                                 </a>
                                                                                                             </span>
                                                                                                             <span class="instagramicon" style="text-align: center;">
                                                                                                                 <a href="https://www.instagram.com/Ronaldmcdonaldkinderhilfe" target="_blank">
                                                                                                                     <img width="32" style="width: 32px;" data-cke-saved-src="/fso_website_email_roki/static/src/icons/Instagram_logo_icon.png"
-                                                                                                                         src="/fso_website_email_roki/static/src/icons/Instagram_logo_icon.png"/>
+                                                                                                                         src="/fso_website_email_roki/static/src/icons/Instagram_logo_icon.png" alt=""/>
                                                                                                                 </a>
                                                                                                             </span>
                                                                                                         </td>
@@ -423,7 +423,7 @@
                                                                                                         style="max-width: 100%; width: 324px;"
                                                                                                         width="324">
                                                                                                         <img class="flexibleImage"
-                                                                                                             src="/fso_website_email/static/src/images/klimtbruecke.jpg"/>
+                                                                                                             src="/fso_website_email/static/src/images/klimtbruecke.jpg" alt=""/>
                                                                                                         <h3>Links</h3>
 
                                                                                                         <p>Vestibulum
@@ -459,7 +459,7 @@
                                                                                                         width="324">
 
                                                                                                         <img class="flexibleImage"
-                                                                                                             src="/fso_website_email/static/src/images/klimtbruecke.jpg"/>
+                                                                                                             src="/fso_website_email/static/src/images/klimtbruecke.jpg" alt=""/>
                                                                                                         <h3>Rechts</h3>
 
                                                                                                         <p>Vestibulum
