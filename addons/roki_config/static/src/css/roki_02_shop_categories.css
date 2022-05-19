@@ -94,7 +94,7 @@ body .col-md-12 .oe-height-2 {
     text-align: center;
 }
 /* -- general settings for Roki for Grid Layout */
-#products_grid.quick_add_to_cart .btn.btn-default {
+#products_grid .quick_add_to_cart .btn.btn-default {
     background-color: #4872ae;
     border-color: #4872ae;
     padding: 4px 10px;
