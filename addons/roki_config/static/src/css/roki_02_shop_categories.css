@@ -76,3 +76,34 @@ body .col-md-12 .oe-height-2 {
         height: 380px;
     }
 }
+
+/* --- Custom only col-md-12 and two-per-row --- */
+
+#products_grid.two-per-row.col-md-12 .oe_product .oe_product_image {
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+}
+#products_grid.two-per-row.col-md-12 .oe_product section {
+    height: 100px;
+}
+
+#products_grid .oe_product section {
+    background: #eeeeee78;
+    text-align: center;
+}
+/* -- general settings for Roki for Grid Layout */
+#products_grid.quick_add_to_cart .btn.btn-default {
+    background-color: #4872ae;
+    border-color: #4872ae;
+    padding: 4px 10px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 0px;
+    margin-top:10px;
+}
+
+#products_grid .quick_add_to_cart a {
+    color: white !important;
+}
