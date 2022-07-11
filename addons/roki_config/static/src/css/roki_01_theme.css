@@ -136,6 +136,13 @@ TODO Check ob diese Settings auch über BOOTSTRAP einstellbar sind
   max-height: 180px;
 }
 
+@media (min-width: 768px) {
+    #wsd_checkout_form .modal-dialog {
+        width: auto;
+        margin: 10px auto;
+    }
+}
+
 #wsd_checkout_form .form-group {
         position: relative !important;
 }
