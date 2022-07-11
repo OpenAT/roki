@@ -131,6 +131,11 @@ TODO Check ob diese Settings auch über BOOTSTRAP einstellbar sind
     color: #8c8c8c;
 }
 
+#wsd_checkout_form .modal-body {
+  overflow-y: auto;
+  max-height: 180px;
+}
+
 #wsd_checkout_form .form-group {
         position: relative !important;
 }
