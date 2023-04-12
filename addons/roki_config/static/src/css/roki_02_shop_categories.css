@@ -37,7 +37,7 @@
 /* special design for additional add to cart button within shop grid view */
 .oe_product_cart .quick_add_to_cart {
     position: relative;
-    bottom: 10px;
+    bottom: 20px;
 }
 .oe_product_cart .quick_add_to_cart .a-submit a {
     width: 100%
@@ -55,7 +55,6 @@ body .col-md-12 .oe-height-2 {
     }
 }
 
-
 @media (min-width: 992px) {
     body .col-md-12 .oe-height-2 {
         height: 380px;
@@ -68,7 +67,6 @@ body .col-md-12 .oe-height-2 {
     }
 }
 
-
 ul.nav-stacked > li > a {
     color: #dc0000;
 }
@@ -80,8 +78,12 @@ ul.nav-stacked > li > a {
      bottom: 0px !important;
 }
 
-.oe_product .quick_add_to_cart a {
+.oe_product .quick_add_to_cart a,
+.oe_product .oe_subdescription {
     font-family: Raleway, sans-serif !important;
+}
+
+.oe_product .quick_add_to_cart a {
     background: #eaebec;
     border-color: #eaebec;
     color: #2b2b2b !important;
@@ -90,6 +92,10 @@ ul.nav-stacked > li > a {
     border-radius: 0px;
     padding: 6px 12px;
     margin: 8px 0px;
+}
+
+.oe_product .oe_subdescription * {
+    font-size: 18px;
 }
 
 .oe_product .quick_add_to_cart a:hover {
@@ -112,20 +118,40 @@ ul.nav-stacked > li > a {
     padding: 1.5rem !important;
 }
 
+.oe_product .oe_subdescription {
+    margin-bottom: 20px !important;
+}
+
 .oe_product h5,
 .oe_product .oe_currency_value
 {
     font-family: Raleway, sans-serif;
-    /* margin: 16px 0px !important; */
-    /* background-color: purple !important; */
 }
 
 .oe_product h5,
+.oe_product .oe_subdescription,
 .oe_product .product_price *
 {
     color: #2b2b2b;
 }
+.oe_product .product_price {
+    padding: 10px 0 !important;
+}
 
 .oe_product .quick_add_to_cart > a:before {
     font-family: Fontawesome !important;
+}
+
+/* Remove box shadows etc */
+
+.oe_product.oe_grid {
+    box-shadow: none !important;
+}
+
+.oe_product.oe_grid:hover {
+    box-shadow: none !important;
+}
+
+#products_grid table {
+    border-spacing: 20px !important;
 }

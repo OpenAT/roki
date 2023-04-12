@@ -1,5 +1,33 @@
 @import "../fonts/raleway/raleway.css";
 
+.btn {
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-size: 16px;
+    font-family: Raleway, sans-serif;
+    background: #eaebec;
+    border-color: #eaebec;
+    color: #2b2b2b;
+    font-size: 16px;
+}
+
+.btn:hover {
+    color: #2b2b2b;
+    background-color: #d6d8da;
+    border-color: #cfd2d4;
+}
+
+.btn.btn-primary {
+    background: #4872ae;
+    border-color: #4872ae;
+}
+
+.btn.btn-primary:hover {
+    background: #3d6093;
+    border-color: #395a8a;
+}
+
 /* ATTENTION: FIX HEIGHT CALCULATION OF THE IFRAME RESIZER
               !!!THE TAGGED ELEMENT MUST BE A BLOCK ELEMENT OR IT WILL NEVER RELEASE ITS HEIGHT!!!
               SO ALT LEAST THE TAGGED <main data-iframe-height="True"> element MUST BE A BLOCK ELEMENT!!!
