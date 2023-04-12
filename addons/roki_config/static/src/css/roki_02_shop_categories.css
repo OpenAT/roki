@@ -1,21 +1,31 @@
 /* ------------------- */
 /* SHOP CATEGORY PAGES */
 /* ------------------- */
+.oe_website_sale > .row {
+    display: flex;
+    flex-flow: column;
+}
 
-/* Product GRID */
-/* ------------ */
+#products_grid_before {
+    order: 1;
+}
+
+#products_grid {
+    order: 0;
+}
+
 #products_grid .oe_product section {
-    background: #eee;
+    background: #ffffff;
     font-size: 20px;
 }
 #products_grid .oe_product section h5 {
     font-size: 20px;
 }
 #products_grid .oe_product section a {
-    color: #212529;
+    color: white;
 }
 #products_grid .product_price.text-primary {
-    color: #212529;
+    color: white;
 }
 #products_grid .oe_product .oe_product_image img {
     height: 100%;
@@ -35,75 +45,87 @@
 .oe_product_cart .quick_add_to_cart .a-submit.fa-shopping-cart:before {
     padding-right:10px;
 }
-/* reverse Shop Grid and Cart, move cart under shop grid */
-body[data-rootcatid="2"] #wrap > div.container.oe_website_sale > div.row {
-    display: flex;
-    flex-direction: column-reverse;
-}
-/* reverse Shop Grid and Cart, move cart under shop grid */
-body[data-rootcatid="3"] #wrap > div.container.oe_website_sale > div.row {
-    display: flex;
-    flex-direction: column-reverse;
-}
-/* reverse Shop Grid and Cart, move cart under shop grid */
-body[data-rootcatid="4"] #wrap > div.container.oe_website_sale > div.row {
-    display: flex;
-    flex-direction: column-reverse;
-}
 
-/* TODO: Shop Grid Size for col md-12 and two products per row
-         You may need to remove the original css of website.sale becaues the media queries are different for rnde!
-*/
 body .col-md-12 .oe-height-2 {
   height: 380px;
 }
-/* bis 400 px */
 @media (max-width: 400px) {
     body #products_grid .oe_product section {
-        background: #eee;
+        background: #fff;
     }
 }
 
-/* ab 992px */
+
 @media (min-width: 992px) {
     body .col-md-12 .oe-height-2 {
         height: 380px;
     }
 }
-/* ab 1200px */
+
 @media (min-width: 1200px) {
     body .col-md-12 .oe-height-2 {
         height: 380px;
     }
 }
 
-/* --- Custom only col-md-12 and two-per-row --- */
 
-#products_grid.two-per-row.col-md-12 .oe_product .oe_product_image {
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    bottom: 0px;
+ul.nav-stacked > li > a {
+    color: #dc0000;
 }
-#products_grid.two-per-row.col-md-12 .oe_product section {
-    height: 100px;
+
+.oe_product .oe_product_image {
+     left: 0px !important;
+     right: 0px !important;
+     top: 0px !important;
+     bottom: 0px !important;
+}
+
+.oe_product .quick_add_to_cart a {
+    font-family: Raleway, sans-serif !important;
+    background: #eaebec;
+    border-color: #eaebec;
+    color: #2b2b2b !important;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 0px;
+    padding: 6px 12px;
+    margin: 8px 0px;
+}
+
+.oe_product .quick_add_to_cart a:hover {
+    color: #2b2b2b !important;
+    background-color: #d6d8da;
+    border-color: #cfd2d4;
+}
+
+.oe_product .oe_subdescription {
+    color: white;
+}
+
+#products_grid .oe_product h5 a {
+    color: #628ecc;
+    font-size: 21.6px;
+    font-weight: normal;
 }
 
 #products_grid .oe_product section {
-    background: #eeeeee78;
-    text-align: center;
-}
-/* -- general settings for Roki for Grid Layout */
-#products_grid .quick_add_to_cart .btn.btn-default {
-    background-color: #4872ae;
-    border-color: #4872ae;
-    padding: 4px 10px;
-    font-size: 18px;
-    line-height: 1.33;
-    border-radius: 0px;
-    margin-top:10px;
+    padding: 1.5rem !important;
 }
 
-#products_grid .quick_add_to_cart a {
-    color: white !important;
+.oe_product h5,
+.oe_product .oe_currency_value
+{
+    font-family: Raleway, sans-serif;
+    /* margin: 16px 0px !important; */
+    /* background-color: purple !important; */
+}
+
+.oe_product h5,
+.oe_product .product_price *
+{
+    color: #2b2b2b;
+}
+
+.oe_product .quick_add_to_cart > a:before {
+    font-family: Fontawesome !important;
 }
