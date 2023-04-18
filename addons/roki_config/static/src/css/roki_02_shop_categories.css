@@ -27,11 +27,22 @@
 #products_grid .product_price.text-primary {
     color: white;
 }
+
+#products_grid .oe_product .oe_product_image {
+    height: 200px;
+}
+
 #products_grid .oe_product .oe_product_image img {
-    height: 100%;
-    max-height: initial;
     width: auto;
+    max-height: initial;
+    height: 100%;
     max-width: initial;
+}
+
+@media (max-width: 768px) {
+    #products_grid .oe_product .oe_product_image {
+        height: 130px;
+    }
 }
 
 /* special design for additional add to cart button within shop grid view */
