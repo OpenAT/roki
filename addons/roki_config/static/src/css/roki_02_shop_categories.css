@@ -32,6 +32,15 @@
     height: 200px;
 }
 
+#products_grid .oe_product section h5 a {
+    text-decoration: none;
+    cursor: default;
+}
+
+#products_grid .oe_product .oe_product_image a {
+    cursor: default;
+}
+
 #products_grid .oe_product .oe_product_image img {
     width: auto;
     max-height: initial;

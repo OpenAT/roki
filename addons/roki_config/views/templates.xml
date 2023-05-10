@@ -141,5 +141,19 @@
             </xpath>
         </template>
 
+        <template id="wsd_products_item_image_no_link" inherit_id="website_sale.products_item">
+            <xpath expr="//div[@class='oe_product_image']" position="replace">
+                <div class="wrap_wsd_1">
+                    <div class="wrap_wsd_2">
+                        <div class="oe_product_image">
+                            <a itemprop="url" t-att-href="'#'">
+                                <img itemprop="image" class="img img-responsive" t-att-src="website.image_url(product, 'image', None if product_image_big else '300x300')" t-att-alt="product.name"/>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </xpath>
+        </template>
+
     </data>
 </openerp>
