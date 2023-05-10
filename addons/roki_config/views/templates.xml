@@ -134,5 +134,15 @@
 
         </template>
 
+        <template id="small_cart_roki" inherit_id="website_sale_donate.small_cart">
+            <xpath expr="//table[@id='cart_products']/thead/tr/th[2]" position="replace">
+                <th class="text-right">Stückzahl &amp; Preis</th>
+            </xpath>
+
+            <xpath expr="//div[@name='product_payment_interval']" position="replace">
+                <div t-if="line.payment_interval_id.name != 'einmalig'" name="product_payment_interval" class="pull-right">(<t t-esc="line.payment_interval_id.name"/>)</div>
+            </xpath>
+        </template>
+
     </data>
 </openerp>
