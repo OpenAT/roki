@@ -127,14 +127,6 @@
 
     </template>
 
-        <!--
-        <template id="user_navbar_roki" inherit_id="website.layout">
-            <xpath expr="//li[@id='customize-menu']/ul" position="inside">
-                <li role="presentation">Hide search</li>
-            </xpath>
-        </template>
-        -->
-
         <template id="hide_product_search" inherit_id="website_sale.search" active="False" customize_show="True" name="Hide product search">
 
             <xpath expr="//div[@class='input-group']" position="replace">
