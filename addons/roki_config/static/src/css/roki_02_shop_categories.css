@@ -166,3 +166,14 @@ ul.nav-stacked > li > a {
 #products_grid table {
     border-spacing: 20px !important;
 }
+
+@media (min-width: 769px) {
+    #products_grid .oe_product section {
+        height: 250px;
+    }
+
+    .oe_product_cart .quick_add_to_cart {
+        position: absolute;
+        bottom: 35px;
+    }
+}
