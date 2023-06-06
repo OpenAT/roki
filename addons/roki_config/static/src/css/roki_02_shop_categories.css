@@ -174,3 +174,9 @@ ul.nav-stacked > li > a {
         bottom: 35px;
     }
 }
+
+@media (max-width: 768px) {
+    #products_grid .oe_product {
+        height: 350px !important;
+    }
+}
