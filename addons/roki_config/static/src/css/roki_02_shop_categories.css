@@ -67,23 +67,11 @@
 }
 
 body .col-md-12 .oe-height-2 {
-  height: 450px;
+  height: 500px;
 }
 @media (max-width: 400px) {
     body #products_grid .oe_product section {
         background: #fff;
-    }
-}
-
-@media (min-width: 992px) {
-    body .col-md-12 .oe-height-2 {
-        height: 450px;
-    }
-}
-
-@media (min-width: 1200px) {
-    body .col-md-12 .oe-height-2 {
-        height: 450px;
     }
 }
 
@@ -178,7 +166,7 @@ ul.nav-stacked > li > a {
 
 @media (min-width: 769px) {
     #products_grid .oe_product section {
-        height: 250px;
+        height: 300px;
     }
 
     .oe_product_cart .quick_add_to_cart {
