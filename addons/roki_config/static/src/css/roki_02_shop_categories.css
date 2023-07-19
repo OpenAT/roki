@@ -136,6 +136,14 @@ ul.nav-stacked > li > a {
     font-family: Raleway, sans-serif;
 }
 
+body[data-rootcatid="7"] #products_grid div.product_price::after {
+    content: "inkl. MwSt." !important;
+    margin-left: 8px;
+    font-size: 12px;
+    font-weight: normal;
+    color: black;
+}
+
 .oe_product h5,
 .oe_product .oe_subdescription,
 .oe_product .product_price *
