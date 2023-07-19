@@ -144,6 +144,15 @@ body[data-rootcatid="7"] #products_grid div.product_price::after {
     color: black;
 }
 
+body[data-rootcatid="7"] #products_grid_before > h3 > a > span {
+    font-size: 0px;
+}
+
+body[data-rootcatid="7"] #products_grid_before > h3 > a > span::after {
+    content: "Ihre Bestellung";
+    font-size: 24px;
+}
+
 .oe_product h5,
 .oe_product .oe_subdescription,
 .oe_product .product_price *
