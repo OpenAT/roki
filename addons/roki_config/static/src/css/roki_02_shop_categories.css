@@ -153,6 +153,15 @@ body[data-rootcatid="7"] #products_grid_before > h3 > a > span::after {
     font-size: 24px;
 }
 
+body[data-rootcatid="7"] #products_grid_before > div.text-left.small_cart_buttons > a {
+    font-size: 0px;
+}
+
+body[data-rootcatid="7"] #products_grid_before > div.text-left.small_cart_buttons > a::after {
+    content: "zahlungspflichtig bestellen";
+    font-size: 16px;
+}
+
 .oe_product h5,
 .oe_product .oe_subdescription,
 .oe_product .product_price *
