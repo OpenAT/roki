@@ -23,6 +23,7 @@ Customer configuration for the instance roki
         'portal_sale',
         'website',
         'website_sale_donate',
+        'mass_mailing',
     ],
     'data': [
         'views/templates.xml',
