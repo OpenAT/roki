@@ -501,6 +501,63 @@
 
 
 
+                <!-- SOCIAL MEDIA SNIPPET  -->
+                <div>
+                    <!-- Icon and name -->
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img"
+                             src="/fso_website_email_roki/static/src/icons/snippet_social_icon.png"/>
+                        <span class="oe_snippet_thumbnail_title">Social Media</span>
+                    </div>
+                    <!-- SNIPPET BLOCK -->
+                    <div class="oe_snippet_body ckediting_disabled snippet_block snippet_block_text_intro" contenteditable="false">
+                        <t t-call="fso_website_email.snippet_block">
+                            <p class="roki_tiny" style="text-align: center">
+                                <span style="font-weight: bold;">Folgen Sie uns!</span><br />
+                                <br/>
+                                <a href="https://www.facebook.com/RonaldMcDonaldKinderhilfe">
+                                    <img src="/fso_website_email_roki/static/src/icons/social/facebook.png" alt="Facebook" width="32" height="32" />
+                                </a>
+                                <a href="https://www.instagram.com/ronaldmcdonaldkinderhilfe/">
+                                    <img src="/fso_website_email_roki/static/src/icons/social/instagram.png" alt="Instagram" width="32" height="32" />
+                                </a>
+                                <a href="https://www.linkedin.com/company/ronaldmcdonaldkinderhilfe">
+                                    <img src="/fso_website_email_roki/static/src/icons/social/linkedin.png" alt="LinkedIn" width="32" height="32" />
+                                </a>
+                                <a href="https://at.pinterest.com/ronaldmcdonaldkinderhilfe">
+                                    <img src="/fso_website_email_roki/static/src/icons/social/pinterest.png" alt="Pinterest" width="32" height="32" />
+                                </a>
+                                <br/><br/>
+                            </p>
+                        </t>
+                    </div>
+                </div>
+
+
+                <!-- SOCIAL MEDIA SNIPPET  -->
+                <div>
+                    <!-- Icon and name -->
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img"
+                             src="/fso_website_email_roki/static/src/icons/snippet_guetesiegel_icon.png"/>
+                        <span class="oe_snippet_thumbnail_title">Gütesiegel</span>
+                    </div>
+                    <!-- SNIPPET BLOCK -->
+                    <div class="oe_snippet_body ckediting_disabled snippet_block snippet_block_text_intro" contenteditable="false">
+                        <t t-call="fso_website_email.snippet_block">
+                            <p class="roki_tiny" style="text-align: center">
+                                <span style="font-weight: bold;">Wir tragen das Spendengütesiegel. Ihre Spende ist steuerlich absetzbar!</span><br />
+                                <br/>
+                                <a href="https://www.kinderhilfe.at/transparenz">
+                                    <img src="/fso_website_email_roki/static/src/icons/spendenguetesiegel.png" width="100" height="100" alt="Spendengütesiegel" />
+                                </a>
+                                <img src="/fso_website_email_roki/static/src/icons/absetzbarkeit.png" width="147" height="100" alt="Absetzbarkeit" />
+                                <br/><br/>
+                            </p>
+                        </t>
+                    </div>
+                </div>
+
             </div>
         </xpath>
     </template>
